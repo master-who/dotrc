@@ -12,6 +12,7 @@ alias ga='git add'
 alias gpf='git push -f'
 alias gmd='git add .; git commit --amend'
 alias gmdn='git add .; git commit --amend --no-edit'
+alias gu='git fetch; git pull'
 
 alias io='cd ~/work/master-who.github.io'
 alias src='source ~/.zshrc'
