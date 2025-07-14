@@ -1,3 +1,7 @@
+alias ..='cd ..'
+alias ...='cd ../..'
+
+
 alias gs='git status'
 alias gd='git diff'
 alias gacm='git add .; git commit -m'
@@ -14,7 +18,13 @@ alias gmd='git add .; git commit --amend'
 alias gmdn='git add .; git commit --amend --no-edit'
 alias gu='git fetch; git pull'
 
+
 alias io='cd ~/work/master-who.github.io'
 alias src='source ~/.zshrc'
 alias a='source venv/bin/activate'
 alias da='deactivate'
+
+
+alias cen='cd /var/www/enso/; source venv/bin/activate';
+
+
